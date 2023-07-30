@@ -130,6 +130,10 @@ h1,h2,h3,h4,h5,h6{
 
 /* Hero Css */
 
+section.Hero {
+    overflow: hidden;
+}
+
 .hero-wrapper {
     display: flex;
     gap: 5px;
@@ -214,6 +218,14 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
     padding: 0px 30px;
     margin-bottom: 100px;
+}
+
+.why-us-feature-item-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 24px;
+    text-align: center;
+    margin: 15px 0px;
 }
 
 .why-us-feature-item p {
@@ -330,7 +342,6 @@ h1,h2,h3,h4,h5,h6{
     right: 0;
     bottom: 0;
     color: #FFFFFF;
-    /* text-align: center; */
     padding: 20px;
 }
 
@@ -372,6 +383,7 @@ h1,h2,h3,h4,h5,h6{
 .cta{
     background: url(../Image/Cta-bg.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .cta-list {
@@ -437,7 +449,6 @@ h1,h2,h3,h4,h5,h6{
 
 .home-contact-form-input textarea {
     width: 100%;
-    margin-top: 30px;
     border-radius: 5px;
     padding: 20px;
     border: 0px;
@@ -451,8 +462,9 @@ h1,h2,h3,h4,h5,h6{
     margin-top: 30px;
 }
 
-.home-contact-form-input {
+.home-contact-form-input-field {
     position: relative;
+    margin-bottom: 20px;
 }
 
 .home-contact-form-input i {
@@ -460,6 +472,10 @@ h1,h2,h3,h4,h5,h6{
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.home-contact-form-input-field i.edit-icon {
+    top: 20px;
 }
 
 .home-contact-form-input-field input,textarea:focus-visible {
@@ -683,6 +699,7 @@ h1,h2,h3,h4,h5,h6{
 
 section.banner.Contact-us{
     background: url(../Image/Contact-us-bg.png);
+    background-size: cover;
 }
 
 .Contact-us-banner-content {
@@ -708,7 +725,10 @@ section.banner.Contact-us{
     color: #FFFFFF;
     padding: 30px;
     position: relative;
-    margin-top: 230px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .Contact-us-content-location::before{
