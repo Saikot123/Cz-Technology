@@ -193,7 +193,6 @@
 
     .Learn-more {
         margin-top: 70px;
-        padding-right: 175px
     }
 
     section.featured-project.section-padding {
@@ -236,6 +235,24 @@
     .section-padding {
         padding: 50px 0px;
     }
+
+
+.follow-us-content-items {
+    margin-top: 20px;
+}
+
+.follow-us-content-items a {
+    border-left: none;
+}
+
+.follow-us-content {
+    justify-content: center;
+    align-items: center;
+}
+
+.follow-us-content h3 {
+    margin: 0px;
+}
 }
 
 @media screen and (max-width: 768px){
@@ -251,8 +268,12 @@
         padding-bottom: 20px;
     }
 
+    .banner-content{
+        height: auto;
+    }
+
     section.banner.section-padding {
-        padding: 20px 0px;
+        padding: 40px 0px;
     }
     
     .banner-content h3 {
@@ -279,15 +300,14 @@
         gap: 0px;
     }
 
-
 .featured-project-list-item-info h3 {
     font-size: 15px;
-    line-height: 10px;
+    line-height: 20px;
 }
 
 .featured-project-list-item h4 {
     font-size: 20px;
-    line-height: 10px;
+    line-height: 25px;
 }
 
 .featured-project-list-item-info p {
@@ -345,10 +365,15 @@
 
 .footer-menu {
     text-align: center;
+    margin-top: 25px;
 }
 
 .footer-menu-address {
-    margin-left: 60px;
+    margin-left: 10px;
+}
+
+.our-scope-right-content-item {
+    height: auto;
 }
 
 .our-scope-left {
@@ -361,7 +386,13 @@
 }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 375px){
+    .footer-menu-address {
+        margin-left: 85px;
+    }
+}
+
+@media screen and (max-width: 375px){
     .Contact-us-banner-content h3 {
         font-size: 40px;
     }
@@ -406,5 +437,38 @@
 }
 
 @media screen and (max-width: 768px){
+    .Mission-vission-content .col-lg-4 {margin-bottom: 32px;}
+
+.about-us-banner-content h3 {
+    font-size: 35px;
+    max-width: 600px;
+    padding-left: 75px;
+}
+
+.About-us-content-info p {font-size: 15px;line-height: 15px;}
+
+.About-us-info-image {
+    padding-top: 55px;
+}
+
+.Authority-dialouge-content p {
+    font-size: 25px;
+    line-height: 30px;
+}
+}
+
+@media screen and (max-width: 375px){
+    .about-us-banner-content h3 {
+        font-size: 25px;
+        padding-left: 0px;
+        line-height: 30px;
+    }
     
+    .Mission-vission-content-info p {
+        font-size: 20px;
+    }
+    
+    .Authority-dialouge-content p {
+        font-size: 20px;
+    }
 }
